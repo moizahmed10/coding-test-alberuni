@@ -1,0 +1,113 @@
+.App {
+padding: 0;
+margin: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+
+}
+
+.searchSection{
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa!important;
+  font-size: 1 rem;
+}
+.searchSection input{
+  width: 772px;
+  margin-left: 5px ;
+  padding: 5px 5px;
+}
+.tableContainer{
+  text-align: left;
+  width: 1320px;
+}
+tr{
+  width: 1320px;
+}
+td{
+  width: calc(100% / 4);
+  height: 50px;
+}
+thead{
+  border-bottom: 2px solid black;
+}
+.divider{
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+.AddContainer{
+  margin-top: 5px;
+width: 1320px;}
+.AddContainer button{
+  background-color:#0d6efd ;
+  border-color: #0d6efd;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.modalContainer{
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modalDataContainer{
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  border: 1px solid #f8f8f8;
+  width: 500px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputFeilds{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+  text-align: left;
+  margin-bottom: 10px;
+
+}
+
+.inputFeilds input{
+  padding: 5px 5px;
+}
+.inputFeilds select{
+  padding: 5px 5px;
+  width: 176px;
+}
+
+.inputFeilds button{
+  background-color:#0d6efd ;
+  border-color: #0d6efd;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 5px;
+
+}
+
+.ErrMsg{
+  color: red;
+  font-size: 8px;
+  
+}
